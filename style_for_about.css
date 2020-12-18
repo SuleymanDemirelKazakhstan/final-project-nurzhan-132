@@ -247,6 +247,24 @@ footer {
     text-align: center;   
 }
 
+/*Keyframes*/
+@keyframes text_reveal_box {
+    50% {
+        width: 100%;
+        left: 0;
+    }   
+    100% {
+        width: 0;
+        left: 100%;
+    }
+
+}
+@keyframes text_reveal {
+    100% {
+        color:rgb(78, 76, 187); 
+    }
+}
+/*End of Key frames*/
 @media only screen and (min-width: 1200px) {
     #header .hamburger {
         display: none;

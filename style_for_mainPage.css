@@ -24,16 +24,6 @@ html {
     background-color: rgb(2, 2, 2);
     opacity: .7;    
 }
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    min-height: 5vh;
-    background-color:rgba(31,30,30,0.24);
-    color: white;
-    text-align: center;   
-}
 
 /*Header*/
 
@@ -206,7 +196,16 @@ footer {
 }
 /* End Hero Section */
 
-
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 5vh;
+    background-color:rgba(31,30,30,0.24);
+    color: white;
+    text-align: center;   
+}
 /*Keyframes*/
 @keyframes text_reveal_box {
     50% {
